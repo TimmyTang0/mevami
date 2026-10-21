@@ -1,1 +1,2 @@
+[ENCODING ERROR] C:/Program Files/YARC Launcher\Customs\Simple Plan - Perfect (2)\song.ini
 [ERROR PARSEO] C:/Program Files/YARC Launcher\Rock Band Network\We Are Knuckle Dragger - -20% for Being a Loser\song.ini → '%' must be followed by '%' or '(', found: '% for Being a Loser'
