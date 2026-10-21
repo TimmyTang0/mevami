@@ -2075,11 +2075,23 @@
         "name": "Picture to Burn",
         "year": "2006",
         "album": "Taylor Swift",
-        "charter": "<color=orange>Neversoft</color>",
-        "lenght": "3:06",
+        "charter": "Neversoft / TrojanNemo",
+        "lenght": "2:57",
         "video_avail": "False",
         "genre": "Country",
         "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
             "Guitar": [
                 "Easy",
                 "Medium",
@@ -2091,55 +2103,62 @@
                 "Medium",
                 "Hard",
                 "Expert"
-            ],
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Expert"
             ]
         },
         "diff_guitar": 3,
         "diff_rhythm": -1,
-        "diff_bass": 2,
+        "diff_bass": 1,
         "diff_guitar_coop": -1,
         "diff_drums": 2,
         "diff_drums_real": 2,
-        "diff_keys": -1
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
     },
     {
         "artist": "Taylor Swift",
         "name": "You Belong With Me",
         "year": "2008",
         "album": "Fearless",
-        "charter": "<color=orange>Neversoft</color>",
-        "lenght": "3:50",
+        "charter": "",
+        "lenght": "3:52",
         "video_avail": "False",
         "genre": "Country",
         "playable_levels": {
-            "Guitar": [
-                "Expert"
-            ],
-            "Bass": [
-                "Expert"
-            ],
             "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
                 "Expert"
             ],
             "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
                 "Expert"
             ]
         },
-        "diff_guitar": 2,
+        "diff_guitar": 1,
         "diff_rhythm": -1,
-        "diff_bass": 1,
+        "diff_bass": 0,
         "diff_guitar_coop": -1,
-        "diff_drums": 2,
-        "diff_drums_real": 2,
-        "diff_keys": -1
+        "diff_drums": 1,
+        "diff_drums_real": 1,
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
     },
     {
         "artist": "The Airborne Toxic Event",
@@ -4142,10 +4161,10 @@
         "name": "Dear Maria, Count Me In",
         "year": "2007",
         "album": "So Wrong, It's Right",
-        "charter": "TomGuy",
-        "lenght": "3:06",
+        "charter": "Harmonix",
+        "lenght": "3:08",
         "video_avail": "False",
-        "genre": "Punk",
+        "genre": "Emo",
         "playable_levels": {
             "Drums": [
                 "Easy",
@@ -4174,7 +4193,7 @@
         },
         "diff_guitar": 3,
         "diff_rhythm": -1,
-        "diff_bass": 2,
+        "diff_bass": 3,
         "diff_guitar_coop": -1,
         "diff_drums": 3,
         "diff_drums_real": 3,
@@ -4584,96 +4603,6 @@
         "diff_guitar_coop": -1,
         "diff_drums": 3,
         "diff_drums_real": 3,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "The Beatles",
-        "name": "Help!",
-        "year": "1965",
-        "album": "Help!",
-        "charter": "oscarj08 / TrojanNemo",
-        "lenght": "2:20",
-        "video_avail": "False",
-        "genre": "Classic Rock",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 4,
-        "diff_rhythm": -1,
-        "diff_bass": 1,
-        "diff_guitar_coop": -1,
-        "diff_drums": 4,
-        "diff_drums_real": 4,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "The Beatles",
-        "name": "Help!",
-        "year": "1965",
-        "album": "Help!",
-        "charter": "oscarj08 / TrojanNemo",
-        "lenght": "2:20",
-        "video_avail": "False",
-        "genre": "Classic Rock",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 4,
-        "diff_rhythm": -1,
-        "diff_bass": 1,
-        "diff_guitar_coop": -1,
-        "diff_drums": 4,
-        "diff_drums_real": 4,
         "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
@@ -5601,51 +5530,6 @@
     },
     {
         "artist": "Black Sabbath",
-        "name": "Paranoid",
-        "year": "1970",
-        "album": "Paranoid",
-        "charter": "DemonUnicorns",
-        "lenght": "2:50",
-        "video_avail": "False",
-        "genre": "Metal",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 4,
-        "diff_rhythm": -1,
-        "diff_bass": 4,
-        "diff_guitar_coop": -1,
-        "diff_drums": 5,
-        "diff_drums_real": 5,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Black Sabbath",
         "name": "Sabbath Bloody Sabbath",
         "year": "1973",
         "album": "Sabbath Bloody Sabbath",
@@ -5784,8 +5668,8 @@
         "name": "Stellar",
         "year": "1999",
         "album": "Make Yourself",
-        "charter": "",
-        "lenght": "3:31",
+        "charter": "Harmonix",
+        "lenght": "3:24",
         "video_avail": "False",
         "genre": "Alternative",
         "playable_levels": {
@@ -5818,8 +5702,8 @@
         "diff_rhythm": -1,
         "diff_bass": 1,
         "diff_guitar_coop": -1,
-        "diff_drums": 0,
-        "diff_drums_real": 0,
+        "diff_drums": 2,
+        "diff_drums_real": 2,
         "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
@@ -6556,102 +6440,6 @@
     },
     {
         "artist": "Daft Punk",
-        "name": "One More Time (ft. Romanthony)",
-        "year": "2001",
-        "album": "Discovery",
-        "charter": "Nightmare Lyre / TrojanNemo",
-        "lenght": "5:39",
-        "video_avail": "False",
-        "genre": "Pop/Dance/Electronic",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Keys": [
-                "Easy"
-            ]
-        },
-        "diff_guitar": 1,
-        "diff_rhythm": -1,
-        "diff_bass": 2,
-        "diff_guitar_coop": -1,
-        "diff_drums": 4,
-        "diff_drums_real": 4,
-        "diff_keys": 0,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Daft Punk",
-        "name": "One More Time (ft. Romanthony)",
-        "year": "2001",
-        "album": "Discovery",
-        "charter": "Nightmare Lyre / TrojanNemo",
-        "lenght": "5:39",
-        "video_avail": "False",
-        "genre": "Pop/Dance/Electronic",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Keys": [
-                "Easy"
-            ]
-        },
-        "diff_guitar": 1,
-        "diff_rhythm": -1,
-        "diff_bass": 2,
-        "diff_guitar_coop": -1,
-        "diff_drums": 4,
-        "diff_drums_real": 4,
-        "diff_keys": 0,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Daft Punk",
         "name": "Something About Us",
         "year": "2001",
         "album": "Discovery",
@@ -6793,47 +6581,25 @@
         "name": "Money for Nothing",
         "year": "1985",
         "album": "Brothers in Arms",
-        "charter": "TrojanNemo",
+        "charter": "<color=orange>Neversoft</color>",
         "lenght": "5:41",
         "video_avail": "False",
-        "genre": "Rock",
+        "genre": "Pop Rock",
         "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
             "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
                 "Expert"
             ],
             "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
                 "Expert"
             ],
-            "Keys": [
-                "Easy",
-                "Medium"
+            "Drums": [
+                "Expert"
             ]
         },
-        "diff_guitar": 3,
-        "diff_rhythm": -1,
+        "diff_guitar": 2,
         "diff_bass": 1,
-        "diff_guitar_coop": -1,
         "diff_drums": 2,
-        "diff_drums_real": 2,
-        "diff_keys": 3,
+        "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
     },
@@ -7427,48 +7193,6 @@
         "diff_guitar_coop": -1,
         "diff_drums": 0,
         "diff_drums_real": 0,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Eminem",
-        "name": "Love The Way You Lie (featuring Rihanna)",
-        "year": "2010",
-        "album": "Recovery",
-        "charter": "",
-        "lenght": "4:28",
-        "video_avail": "False",
-        "genre": "Hip-Hop/Rap",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Expert"
-            ]
-        },
-        "diff_guitar": 4,
-        "diff_rhythm": -1,
-        "diff_bass": 1,
-        "diff_guitar_coop": -1,
-        "diff_drums": 3,
-        "diff_drums_real": 3,
         "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
@@ -8732,42 +8456,27 @@
         "name": "Rock and Roll All Nite",
         "year": "1975",
         "album": "Dressed to Kill",
-        "charter": "Ultimate_MANG0",
-        "lenght": "3:19",
+        "charter": "Neversoft",
+        "lenght": "3:18",
         "video_avail": "False",
-        "genre": "Rock",
+        "genre": "Hard Rock",
         "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
             "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
                 "Expert"
             ],
             "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
+                "Expert"
+            ],
+            "Drums": [
                 "Expert"
             ]
         },
-        "diff_guitar": 3,
+        "diff_guitar": 2,
         "diff_rhythm": -1,
         "diff_bass": 2,
         "diff_guitar_coop": -1,
         "diff_drums": 3,
-        "diff_drums_real": 3,
+        "diff_drums_real": -1,
         "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
@@ -9233,6 +8942,99 @@
         "diff_drums": 6,
         "diff_drums_real": 6,
         "diff_keys": 6
+    },
+    {
+        "artist": "Machine Gun Kelly",
+        "name": "maybe (ft. Bring Me the Horizon)",
+        "year": "2022",
+        "album": "mainstream sellout",
+        "charter": "ThreeAreEss",
+        "lenght": "2:55",
+        "video_avail": "False",
+        "genre": "Punk",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ]
+        },
+        "diff_guitar": 2,
+        "diff_rhythm": -1,
+        "diff_bass": 2,
+        "diff_guitar_coop": -1,
+        "diff_drums": 5,
+        "diff_drums_real": 5,
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Machine Gun Kelly, YUNGBLUD & Travis Barker",
+        "name": "I Think I'm OKAY",
+        "year": "2019",
+        "album": "Hotel Diablo",
+        "charter": "Emotional Flight",
+        "lenght": "2:55",
+        "video_avail": "False",
+        "genre": "Punk",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Keys": [
+                "Easy"
+            ]
+        },
+        "diff_guitar": 2,
+        "diff_rhythm": -1,
+        "diff_bass": 0,
+        "diff_guitar_coop": -1,
+        "diff_drums": 2,
+        "diff_drums_real": 2,
+        "diff_keys": 0,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
     },
     {
         "artist": "Mariah Carey",
@@ -10275,6 +10077,287 @@
         "diff_bassghl": -1
     },
     {
+        "artist": "Paramore",
+        "name": "All I Wanted",
+        "year": "2009",
+        "album": "Brand New Eyes",
+        "charter": "GreenPanda12, Ultimate_MANG0",
+        "lenght": "3:51",
+        "video_avail": "False",
+        "genre": "Alternative",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ]
+        },
+        "diff_guitar": 2,
+        "diff_rhythm": -1,
+        "diff_bass": 1,
+        "diff_guitar_coop": -1,
+        "diff_drums": 3,
+        "diff_drums_real": 3,
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Paramore",
+        "name": "Brighter",
+        "year": "2005",
+        "album": "All We Know Is Falling",
+        "charter": "GreenPanda12 & Ultimate_MANG0",
+        "lenght": "3:45",
+        "video_avail": "False",
+        "genre": "Alternative",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ]
+        },
+        "diff_guitar": 3,
+        "diff_rhythm": -1,
+        "diff_bass": 1,
+        "diff_guitar_coop": -1,
+        "diff_drums": 3,
+        "diff_drums_real": 3,
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Paramore",
+        "name": "Careful",
+        "year": "2009",
+        "album": "Brand New Eyes",
+        "charter": "GreenPanda12 & Ultimate_MANG0",
+        "lenght": "3:56",
+        "video_avail": "False",
+        "genre": "Alternative",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ]
+        },
+        "diff_guitar": 3,
+        "diff_rhythm": -1,
+        "diff_bass": 3,
+        "diff_guitar_coop": -1,
+        "diff_drums": 4,
+        "diff_drums_real": 4,
+        "diff_keys": -1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Paramore",
+        "name": "Fake Happy",
+        "year": "2017",
+        "album": "After Laughter",
+        "charter": "JIManji, Ultimate_MANG0",
+        "lenght": "3:57",
+        "video_avail": "False",
+        "genre": "New Wave",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Keys": [
+                "Easy",
+                "Medium"
+            ]
+        },
+        "diff_guitar": 2,
+        "diff_rhythm": -1,
+        "diff_bass": 2,
+        "diff_guitar_coop": -1,
+        "diff_drums": 2,
+        "diff_drums_real": 2,
+        "diff_keys": 2,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Paramore",
+        "name": "Playing God",
+        "year": "2009",
+        "album": "Brand New Eyes",
+        "charter": "GreenPanda12 & Ultimate_MANG0",
+        "lenght": "3:08",
+        "video_avail": "False",
+        "genre": "Alternative",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Keys": [
+                "Easy"
+            ]
+        },
+        "diff_guitar": 2,
+        "diff_rhythm": -1,
+        "diff_bass": 2,
+        "diff_guitar_coop": -1,
+        "diff_drums": 3,
+        "diff_drums_real": 3,
+        "diff_keys": 1,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
+        "artist": "Paramore",
+        "name": "Rose-Colored Boy",
+        "year": "2017",
+        "album": "After Laughter",
+        "charter": "JIManji, Ultimate_MANG0",
+        "lenght": "3:38",
+        "video_avail": "False",
+        "genre": "Alternative",
+        "playable_levels": {
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Guitar": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Bass": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Keys": [
+                "Easy",
+                "Medium"
+            ]
+        },
+        "diff_guitar": 3,
+        "diff_rhythm": -1,
+        "diff_bass": 3,
+        "diff_guitar_coop": -1,
+        "diff_drums": 4,
+        "diff_drums_real": 4,
+        "diff_keys": 3,
+        "diff_guitarghl": -1,
+        "diff_bassghl": -1
+    },
+    {
         "artist": "Phil Collins",
         "name": "In the Air Tonight",
         "year": "1981",
@@ -11066,51 +11149,6 @@
         "artist": "Simple Plan",
         "name": "I'm Just a Kid",
         "year": "2002",
-        "album": "No Pads, No Helmets... Just Balls",
-        "charter": "SuD",
-        "lenght": "3:12",
-        "video_avail": "False",
-        "genre": "Punk",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 2,
-        "diff_rhythm": -1,
-        "diff_bass": 1,
-        "diff_guitar_coop": -1,
-        "diff_drums": 2,
-        "diff_drums_real": 2,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Simple Plan",
-        "name": "I'm Just a Kid",
-        "year": "2002",
         "album": "No Pads, No Helmets...Just Balls",
         "charter": "JIManji",
         "lenght": "3:22",
@@ -11374,51 +11412,6 @@
         "diff_guitar": 3,
         "diff_rhythm": -1,
         "diff_bass": 3,
-        "diff_guitar_coop": -1,
-        "diff_drums": 3,
-        "diff_drums_real": 3,
-        "diff_keys": -1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "Simple Plan",
-        "name": "Perfect",
-        "year": "2002",
-        "album": "No Pads, No Helmets...Just Balls",
-        "charter": "RyanHYK",
-        "lenght": "4:43",
-        "video_avail": "False",
-        "genre": "Punk",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 2,
-        "diff_rhythm": -1,
-        "diff_bass": 2,
         "diff_guitar_coop": -1,
         "diff_drums": 3,
         "diff_drums_real": 3,
@@ -11914,23 +11907,11 @@
         "name": "Fade to Black",
         "year": "1984",
         "album": "Ride the Lightning",
-        "charter": "",
-        "lenght": "7:02",
+        "charter": "<color=orange>Neversoft</color>",
+        "lenght": "7:03",
         "video_avail": "False",
-        "genre": "Metal",
+        "genre": "Thrash Metal",
         "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
             "Guitar": [
                 "Easy",
                 "Medium",
@@ -11943,19 +11924,24 @@
                 "Hard",
                 "Expert"
             ],
-            "Keys": [
-                "Easy"
+            "Rhythm": [
+                "Easy",
+                "Expert"
+            ],
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
             ]
         },
-        "diff_guitar": 5,
-        "diff_rhythm": -1,
-        "diff_bass": 2,
+        "diff_guitar": 4,
+        "diff_rhythm": 4,
+        "diff_bass": 3,
         "diff_guitar_coop": -1,
-        "diff_drums": 2,
-        "diff_drums_real": 2,
-        "diff_keys": 0,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
+        "diff_drums": 4,
+        "diff_drums_real": -1,
+        "diff_keys": -1
     },
     {
         "artist": "System of a Down",
@@ -12412,23 +12398,11 @@
         "name": "Our Song",
         "year": "2006",
         "album": "Taylor Swift",
-        "charter": "Neversoft / TrojanNemo",
-        "lenght": "3:27",
+        "charter": "<color=orange>Neversoft</color>",
+        "lenght": "3:28",
         "video_avail": "False",
         "genre": "Country",
         "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
             "Guitar": [
                 "Easy",
                 "Medium",
@@ -12441,19 +12415,26 @@
                 "Hard",
                 "Expert"
             ],
-            "Keys": [
-                "Easy"
+            "Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
+            ],
+            "Pro Drums": [
+                "Easy",
+                "Medium",
+                "Hard",
+                "Expert"
             ]
         },
         "diff_guitar": 3,
         "diff_rhythm": -1,
-        "diff_bass": 1,
+        "diff_bass": 2,
         "diff_guitar_coop": -1,
         "diff_drums": 2,
         "diff_drums_real": 2,
-        "diff_keys": 1,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
+        "diff_keys": -1
     },
     {
         "artist": "Taylor Swift",
@@ -13093,51 +13074,6 @@
         "diff_drums": -1,
         "diff_drums_real": -1,
         "diff_keys": 2,
-        "diff_guitarghl": -1,
-        "diff_bassghl": -1
-    },
-    {
-        "artist": "The Eagles",
-        "name": "Hotel California",
-        "year": "1976",
-        "album": "Hotel California",
-        "charter": "Neversoft / GHtoRB3",
-        "lenght": "6:38",
-        "video_avail": "False",
-        "genre": "Classic Rock",
-        "playable_levels": {
-            "Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Pro Drums": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Guitar": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ],
-            "Bass": [
-                "Easy",
-                "Medium",
-                "Hard",
-                "Expert"
-            ]
-        },
-        "diff_guitar": 1,
-        "diff_rhythm": -1,
-        "diff_bass": 1,
-        "diff_guitar_coop": -1,
-        "diff_drums": 1,
-        "diff_drums_real": 1,
-        "diff_keys": -1,
         "diff_guitarghl": -1,
         "diff_bassghl": -1
     },
